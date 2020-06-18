@@ -1,0 +1,6 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+app:
+  blockedIINs: ${BLOCKED_IINS:""}
